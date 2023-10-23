@@ -1,0 +1,21 @@
+h1{
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+p{
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+h2{
+    text-align: left;
+    padding-left: 50px;
+}
+
+ul{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 15px;
+}
