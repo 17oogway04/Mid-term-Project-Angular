@@ -35,5 +35,14 @@ export class JobServiceService {
     return of (this.listOfJobs)
   }
 
-
+  getJob(id: number): Observable<any>
+    {
+      let idNumber: number = 0;
+      this.listOfJobs.forEach(n =>{
+        if(n.id === id){
+          idNumber = n.id;
+        }
+      });
+      return of(idNumber);
+    }
 }
