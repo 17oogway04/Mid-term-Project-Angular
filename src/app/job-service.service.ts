@@ -34,4 +34,6 @@ export class JobServiceService {
   getJobs(): Observable<JobFormat[]>{
     return of (this.listOfJobs)
   }
+
+
 }
