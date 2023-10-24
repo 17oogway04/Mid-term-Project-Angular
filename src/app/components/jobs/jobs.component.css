@@ -1,11 +1,10 @@
 h1{
-    text-align: center;
+    text-align: left;
     padding-top: 175px;
+    padding-left: 200px;
 }
-.jobtitles{
-    text-align: center;
-}
-
-p{
-    padding-top: 15px;
+ul{
+    text-align: left;
+    padding-left: 130px;
+    margin: 5px;
 }
