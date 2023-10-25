@@ -8,8 +8,8 @@ import { JobServiceService } from 'src/app/job-service.service';
   styleUrls: ['./job-details.component.css']
 })
 export class JobDetailsComponent {
-currentJobID: number = 0;
-currentJob: string = '';
+currentJobID!: number;
+currentJob!: string;
 
 constructor(private jobService: JobServiceService, private actRoute: ActivatedRoute){}
 
