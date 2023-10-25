@@ -1,12 +1,6 @@
-<!-- <h1>{{title}}</h1>
-<div *ngFor="let j of jobList" class="jobtitles">
-    <p>{{j.title}}</p>
-</div> -->
-
-
 <h1>{{title}}</h1>
 <ul>
     <ul *ngFor="let j of jobList">
-        <a [routerLink] = "['/jobs', j.title]">{{j.title}}</a>
+        <a [routerLink] = "['/jobs', j.id]">{{j.title}}</a>
     </ul>
 </ul>

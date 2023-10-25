@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { JobServiceService } from 'src/app/job-service.service';
+import { JobFormat } from 'src/app/models/job-format';
 
 @Component({
   selector: 'app-job-details',
@@ -8,15 +9,17 @@ import { JobServiceService } from 'src/app/job-service.service';
   styleUrls: ['./job-details.component.css']
 })
 export class JobDetailsComponent {
-currentJobID!: number;
-currentJob!: string;
+  
+job?: JobFormat;
 
 constructor(private jobService: JobServiceService, private actRoute: ActivatedRoute){}
 
 ngOnInit(): void{
-  this.currentJobID = parseInt(this.actRoute.snapshot.paramMap.get("jobId") ?? "");
-  this.jobService.getJob(this.currentJobID).subscribe(foundJob => {
-    this.currentJob = foundJob;
+
+  const id = this.actRoute.snapshot.params['id'];
+
+  this.jobService.getJob(id).subscribe(result => {
+    this.job = result;
   })
 }
 

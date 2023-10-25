@@ -1,4 +1,14 @@
-<h1>Job | {{currentJobID}}</h1>
-<p>{{currentJob}}</p>
 
-<a [routerLink] = "['/jobs']">Back</a>
+
+    <div *ngIf="job">
+    <div class="whole">
+        <h1 class="title">{{job.title}} - {{job.duration}}</h1>
+        <p class="jobD">{{job.description}}</p>
+    </div>
+    </div>
+
+    <div class="back">
+        <a [routerLink] = "['/jobs']">Back</a>   
+    </div>
+
+
