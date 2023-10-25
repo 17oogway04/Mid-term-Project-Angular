@@ -1,10 +1,15 @@
 h1{
-    text-align: left;
+    text-align: center;
     padding-top: 175px;
-    padding-left: 200px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    
 }
 ul{
-    text-align: left;
-    padding-left: 130px;
+    text-align: center;
     margin: 5px;
+    padding-right: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playpen Sans', cursive;
 }

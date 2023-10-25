@@ -3,19 +3,31 @@ h1{
     padding-left: 50px;
     padding-bottom: 20px;
     padding-top: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
 }
 p{
     text-align: left;
     padding-left: 50px;
     padding-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playpen Sans', cursive;
+   
 }
 h2{
     text-align: left;
     padding-left: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
 }
 
 ul{
     text-align: left;
     padding-left: 100px;
     padding-top: 15px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playpen Sans', cursive;
+   
 }

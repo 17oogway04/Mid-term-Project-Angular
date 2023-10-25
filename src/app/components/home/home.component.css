@@ -1,7 +1,8 @@
 h1{
     text-align: center;
     padding-top: 10px;
-    
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
 }
 
 .center{
@@ -15,4 +16,7 @@ h1{
 h2{
     text-align: center;
     padding-top: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playpen Sans', cursive;
 }
