@@ -1,17 +1,23 @@
 .title{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
     text-align: center;
     padding-top: 200px;
 }
 
 .jobD{
     text-align: left;
-    padding: 10px;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding: 75px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playpen Sans', cursive;
 }
 
 .back{
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playpen Sans', cursive;
 }
 
 
